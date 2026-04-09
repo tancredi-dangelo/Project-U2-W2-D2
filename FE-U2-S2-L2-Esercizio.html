@@ -22,13 +22,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Saldi</a>
+                        <a class="nav-link" href="sales">Saldi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Welcome Summer</a>
+                        <a class="nav-link" href="welcomeSummer">Welcome Summer</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Last Minute</a>
+                        <a class="nav-link" href="lastMinute">Last Minute</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Recensioni</a>
@@ -43,7 +43,8 @@
         </nav>   
     </header>
     <main class="mx-auto p-2" style="width: 90%">
-        <section class="container mt-4">
+
+        <section id="hero" class="container mt-4">
             <div class="bg-light p-5 rounded text-center shadow-sm">
                 <h2 class="mb-2">Rocket Trip <small class="text-muted">— Feel the freedom</small></h2>
                 <p class="text-muted">Scopri le destinazioni più calde del momento!</p>
@@ -51,7 +52,7 @@
             </div>
         </section>
 
-        <section class="container mt-5">
+        <section id="sales" class="container mt-5">
 
             <div class="d-flex justify-content-between">
                 <h5>Saldi</h5>
@@ -106,7 +107,7 @@
             </div>
         </section>
 
-        <section class="container mt-5">
+        <section id="welcomeSummer" class="container mt-5">
 
             <div class="d-flex justify-content-between">
                 <h5>Welcome Summer</h5>
@@ -184,7 +185,7 @@
             </div>
         </section>
 
-        <section class="container border-box mt-5 border shadow p-3 rounded">
+        <section id="dailyOffer" class="container border-box mt-5 border shadow p-3 rounded">
 
             <div class="d-flex justify-content-between">
                 <h5>Offerta del giorno</h5>
@@ -206,7 +207,7 @@
             </div>
         </section>
 
-        <section class="container mt-5">
+        <section id="lastMinute" class="container mt-5">
 
             <div class="d-flex justify-content-between">
                 <h5>Last Minute</h5>
@@ -242,7 +243,7 @@
             </div>
         </section>
 
-        <section class="container mt-5">
+        <section id="" class="container mt-5">
             <h5>Dicono di noi</h5>
             <div class="row g-3 mt-1">
                 <div class="col-12">
@@ -264,9 +265,14 @@
             </div>
         </section>
     </main>
-    <footer>
 
+    <footer class="bg-dark p-4 text-center">
+        <button class="bg-transparent rounded border border-light m-2 p-1 text-light">Contattaci</button>
+        <p class="text-light">
+            <small>Rocket Trips, all rights reserved</small>
+        </p>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 </html>
